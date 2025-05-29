@@ -3,26 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>私の最初のホームページ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   <style>
     body {
       background-color: #e0f7fa;
       color: #333333;
-      font-family: sans-serif;
-      padding: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
     }
+
+    .card {
+      background-color: #ffffff;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 90%;
+      text-align: center;
+    }
+
     h1 {
-      font-size: 2em;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #00796b;
     }
+
     p {
-      font-size: 1.2em;
+      font-size: 1.1rem;
       margin: 10px 0;
+      line-height: 1.6;
+    }
+
+    strong {
+      display: inline-block;
+      width: 90px;
+      text-align: right;
+      margin-right: 10px;
+      color: #006064;
     }
   </style>
 </head>
 <body>
-  <h1>ようこそ！</h1>
-  <p><strong>名前：</strong>上山　大仁</p>
-  <p><strong>学部学科：</strong>理工学部応用情報工学科</p>
-  <p><strong>趣味：</strong>TCG、ゲーム</p>
+  <div class="card">
+    <h1>ようこそ！</h1>
+    <p><strong>名前：</strong>上山　大仁</p>
+    <p><strong>学部学科：</strong>理工学部応用情報工学科</p>
+    <p><strong>趣味：</strong>TCG、ゲーム、アニメ鑑賞</p>
+  </div>
 </body>
 </html>
